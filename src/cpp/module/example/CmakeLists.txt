@@ -1,0 +1,4 @@
+set(libname example)
+set(modulename ${libname}_abi)
+FILE(GLOB SRCF *.cpp)
+add_library(${modulename} MODULE ${SRCF})
